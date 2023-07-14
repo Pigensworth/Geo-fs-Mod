@@ -1,4 +1,4 @@
-This mod adds a button, slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
+![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/a8c0e87a-3870-4b8a-9b8c-335f5b76dfc3)This mod adds a button, slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
 
 Disclaimer! I'm not responsible for any damage caused by this script, including but not limited to being banned. I haven't gotten banned, but just in case. If you try to go to fast then the plane will start jumping around and could crash the page.
 
@@ -11,4 +11,4 @@ Once it's loaded simply move the slider to the desired value and hit the button 
 
 I've only tested using Tampermonkey on Chrome, and i've gotten reports that it doesn't work on Edge, but pasting it into the console should work.
 
-![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/29aa3549-07bc-41eb-9cc5-042f42394420)
+![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/db19e83a-e534-4d16-ab17-fe047bd8dbb5)
