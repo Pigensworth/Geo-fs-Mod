@@ -9,6 +9,6 @@ For using it as a bookmarklet create a new bookmark, replace the url with the co
 
 Once it's loaded simply move the slider to the desired value and hit the button to multiply it by that.
 
-I've only tested using Tampermonkey on Chrome, and i've gotten reports that it doesn't work on Edge, but pasting it into the console should work.
+I've only tested using Tampermonkey on Chrome, and I've gotten reports that it doesn't work on Edge, but pasting it into the console should work.
 
 ![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/db19e83a-e534-4d16-ab17-fe047bd8dbb5)
