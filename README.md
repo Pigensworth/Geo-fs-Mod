@@ -1,4 +1,4 @@
-![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/a8c0e87a-3870-4b8a-9b8c-335f5b76dfc3)This mod adds a button, slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
+This mod adds a button, slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
 
 Disclaimer! I'm not responsible for any damage caused by this script, including but not limited to being banned. I haven't gotten banned, but just in case. If you try to go to fast then the plane will start jumping around and could crash the page.
 
