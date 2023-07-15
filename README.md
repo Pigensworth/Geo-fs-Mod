@@ -13,4 +13,4 @@ I've only tested using Tampermonkey on Chrome, and I've gotten reports that it d
 
 ![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/db19e83a-e534-4d16-ab17-fe047bd8dbb5)
 
-If you see me on their then (if you don't mind) let me know that you're using!
+If you see me on their then (if you don't mind) let me know that you're using it!
