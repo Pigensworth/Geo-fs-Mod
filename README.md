@@ -8,7 +8,7 @@ For using it as a bookmarklet create a new bookmark, replace the url with the co
 
 Once it's loaded simply move the slider to the desired value and hit the button to multiply the thrust by that.
 
-I've only tested using Tampermonkey on Chrome, and I've gotten reports that it crashes the page on Edge, but pasting it into the console works for me.
+I've only tested using Tampermonkey on Chrome, and I've gotten reports that it goes wild on Edge, but pasting it into the console worked for me.
 
 ![F-16 Screenshot](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/080c9d3c-19e2-4ee0-bfc8-15acbde6bb65)
 
