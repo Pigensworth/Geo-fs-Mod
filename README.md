@@ -1,4 +1,4 @@
-This mod adds a button, slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
+This mod adds two "secret" skins, a button, a slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
 
 Disclaimer! I'm not responsible for any damage caused by this script, including but not limited to being banned. I haven't gotten banned, but just in case. If you try to go to fast then the plane will start jumping around and could crash the page.
 
