@@ -7,7 +7,7 @@ For using it in Tampermonkey simply create a new Tampermonkey script, and replac
 
 For using it as a bookmarklet create a new bookmark, replace the url with the code in Bookmarklet.js, and name it Geo-fs-Speed-Mod (I'm not sure if it has to have a certain name, but this works for me). Bookmarklets don't work with Edge.
 
-Once it's loaded simply move the slider to the desired value and hit the button to multiply it by that.
+Once it's loaded simply move the slider to the desired value and hit the button to multiply the thrust by that.
 
 I've only tested using Tampermonkey on Chrome, and I've gotten reports that it doesn't work on Edge, but pasting it into the console should work.
 
