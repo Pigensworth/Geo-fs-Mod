@@ -18,21 +18,21 @@
     document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(divElement1);
 
     var image1 = document.createElement('img'); // Create a new image element
-    image1.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/737-700.png'; // Set the source attribute of the image
+    image1.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/737-700.png?raw=true'; // Set the source attribute of the image
     divElement1.appendChild(image1);
     divElement1.appendChild(document.createTextNode('Geo-FS'));
 
     var image2 = document.createElement('img');
-    image2.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/Aerospatiale.png';
-    
+    image2.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/Aerospatiale.png?raw=true';
+
     let divElement2 = document.createElement('div');
     divElement2.setAttribute('data-aircraft', '20');
     divElement2.setAttribute('data-livery', '3');
     document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(divElement2);
-    divElement1.appendChild(image2);
+    divElement2.appendChild(image2);
     divElement2.appendChild(document.createTextNode('Aerospatiale'));
 
-    
+
     let button = document.createElement('button'); //Creates the button
     button.innerHTML = 'Multiply Power'; //Names the button
     button.className = 'button';
