@@ -12,3 +12,5 @@ Once it's loaded simply move the slider to the desired value and hit the button 
 I've only tested using Tampermonkey on Chrome, and I've gotten reports that it doesn't work on Edge, but pasting it into the console should work.
 
 ![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/db19e83a-e534-4d16-ab17-fe047bd8dbb5)
+
+If you see me on their then (if you don't mind) let me know that you're using!
