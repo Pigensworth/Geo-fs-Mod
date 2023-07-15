@@ -32,6 +32,19 @@
     divElement2.appendChild(image2);
     divElement2.appendChild(document.createTextNode('Aerospatiale'));
 
+/*
+
+    let liElement1 = document.createElement('li');
+    liElement1.setAttribute('data-aircraft', '23');
+    document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(liElement1);
+    var image3 = document.createElement('img'); // Create a new image element
+    image3.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/Piper%20PA-28%20161%20Warrior%20II.png?raw=true'; // Set the source attribute of the image
+    liElement1.appendChild(image3);
+    //liElement1.appentChild(image3);
+    liElement1.appendChild(document.createTextNode('Piper PA-28 161 Warrior II'));
+
+    */
+
 
     let button = document.createElement('button'); //Creates the button
     button.innerHTML = 'Multiply Power'; //Names the button
