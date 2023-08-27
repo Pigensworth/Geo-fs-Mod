@@ -1,4 +1,4 @@
-This mod adds two "secret" skins, a button, a slider, and a text box that allows users to multiply the power of most planes on Geo-fs.
+This mod adds two "secret" skins and some power options for most planes on Geo-fs.
 
 Disclaimer! I'm not responsible for any damage caused by this script, including but not limited to being banned. I haven't gotten banned, but just in case. If you try to go to fast then the plane will start jumping around and could crash the page.
 
@@ -10,6 +10,6 @@ Once it's loaded simply move the slider to the desired value and hit the button 
 
 I've only tested using Tampermonkey on Chrome, and I've gotten reports that it goes wild on Edge, but pasting it into the console worked for me.
 
-![F-16 Screenshot](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/080c9d3c-19e2-4ee0-bfc8-15acbde6bb65)
+![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/13466356-ef3c-41f1-a20b-2ced3a1c695a)
 
 If you're using it and see me on there then (if you don't mind) let me know that you're using it!
