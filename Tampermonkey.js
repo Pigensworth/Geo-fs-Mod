@@ -11,6 +11,12 @@
 (function() {
     'use strict';
 
+
+
+
+
+
+    
 // let liElement1 = document.createElement('li');liElement1.setAttribute('data-aircraft', '23');document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(liElement1);var image3 = document.createElement('img');image3.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/Piper%20PA-28%20161%20Warrior%20II.png?raw=true';liElement1.appendChild(image3);liElement1.appendChild(document.createTextNode('Piper PA-28 161 Warrior II'));
 
     function toggleBox() {
