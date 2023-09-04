@@ -56,7 +56,7 @@
 
     let button1 = document.createElement('button'); //Creates the button
     button1.innerHTML = 'Divide Power'; //Names the button
-    button1.style.width = '150px';// Defines the width of the button
+    button1.style.width = '151px';// Defines the width of the button
     button1.className = 'button1';
     button1.style.backgroundColor = 'white'; //Colors the button
     button1.style.borderColor = 'grey'; //Colors the border
@@ -68,7 +68,7 @@
     let button2 = document.createElement('button'); //Creates the button
     button2.innerHTML = 'Multiply Power'; //Names the button
     button2.style.transform = "translate(2%, 0%)";
-    button2.style.width = '150px'; // Defines the width of the button
+    button2.style.width = '151px'; // Defines the width of the button
     button2.className = 'button2';
     button2.style.backgroundColor = 'transparent'; //Colors the button
     button2.style.borderColor = 'grey'; //Colors the border
