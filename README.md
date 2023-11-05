@@ -1,5 +1,8 @@
 #### This mod adds two "secret" skins and some power options for most planes on Geo-fs.
 
+# Credits
+Many thanks to Geo-fs pilot BAD_BIRD (or something like that) for the script for the chat fix and for the feedback. That's the only reason I kept working on this.
+
 # Disclaimer!
 I'm not responsible for any damage caused by this script, including but not limited to being banned. I haven't gotten banned, but just in case. If you try to go to fast then the plane will start jumping around and could crash the page.
 
