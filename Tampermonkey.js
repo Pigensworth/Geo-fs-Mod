@@ -16,6 +16,8 @@
 
 
 
+    let liElement1 = document.createElement('li');liElement1.setAttribute('data-aircraft', '102');document.querySelector("body > div.geofs-ui-left > ul.geofs-list.geofs-toggle-panel.geofs-aircraft-list.geofs-visible").appendChild(liElement1);/*var image3 = document.createElement('img');image3.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/Piper%20PA-28%20161%20Warrior%20II.png?raw=true';liElement1.appendChild(image3);*/liElement1.appendChild(document.createTextNode('Citroen 2CV'));
+
 
     function toggleBox() {
     const box = document.getElementById('box');
