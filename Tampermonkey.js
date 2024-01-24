@@ -17,8 +17,6 @@
 
 
 
-// let liElement1 = document.createElement('li');liElement1.setAttribute('data-aircraft', '23');document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(liElement1);var image3 = document.createElement('img');image3.src = 'https://github.com/Pigensworth/Geo-fs-Mod/blob/main/Images/Piper%20PA-28%20161%20Warrior%20II.png?raw=true';liElement1.appendChild(image3);liElement1.appendChild(document.createTextNode('Piper PA-28 161 Warrior II'));
-
     function toggleBox() {
     const box = document.getElementById('box');
     box.style.display = box.style.display === 'block' ? 'none' : 'block';
@@ -62,7 +60,7 @@
     button1.style.borderColor = 'grey'; //Colors the border
     button1.style.fontSize = "19px"; //Making the font size 20 pixels
     button1.style.fontWeight = "550"; //Changing the thickness of the numbers
-    button1.onclick = calculate1; //Telling it to multiply the power (do the function called calculate) when you click the button
+    button1.onclick = divide; //Telling it to multiply the power (do the function called calculate) when you click the button
     box.appendChild(button1); //Appends the button
 
     let button2 = document.createElement('button'); //Creates the button
@@ -74,7 +72,7 @@
     button2.style.borderColor = 'grey'; //Colors the border
     button2.style.fontSize = "19px"; //Making the font size 20 pixels
     button2.style.fontWeight = "550"; //Changing the thickness of the numbers
-    button2.onclick = calculate2; //Telling it to multiply the power (do the function called calculate) when you click the button
+    button2.onclick = multiply; //Telling it to multiply the power (do the function called calculate) when you click the button
     box.appendChild(button2); //Appends the button
 
     let slider = document.createElement('input'); //Creates the slider
@@ -96,34 +94,34 @@
     //document.querySelector("body > div.geofs-ui-center > div.geofs-ui-right > div.geofs-pads-container").appendChild(textDisplay); //Appends the display box
     box.appendChild(textDisplay);
     slider.oninput = function(){ //Changes what the text display box says when the slider is moved
-    textDisplay.innerHTML = (slider.value); //The actual changing
+    textDisplay.innerHTML = (slider.value); //Showing the value to change it by
 };
     var i = 0; //Declaring the variable "i"
 
-    function calculate1() { //The actual power multiplying when the button is clicked, plus changing the zero thrust altitude
+    function divide() { //The actual power dividing when the button is clicked, plus changing the zero thrust altitude
         let value = parseInt(slider.value); //Assigning a variable to the slider value
         console.log(geofs.aircraft.instance.setup.zeroThrustAltitude = 1e+162) //Changes the zero thrust altitude way up
     var i = 0; //Setting variable "i" to 0
     while (i < 12) { //Completing some code as long as 'i' is less than 12
-    if (geofs.aircraft.instance.engines[i] != undefined) { //Seeing if the engine under whatever "i" equals is actually an engine
-     geofs.aircraft.instance.engines[i].thrust = geofs.aircraft.instance.engines[i].thrust/value; //Multiplying it by the value of the slider if it is an engine
+    if (geofs.aircraft.instance.engines[i] != undefined) { //Seeing if engine number "i" is actually an engine
+     geofs.aircraft.instance.engines[i].thrust = geofs.aircraft.instance.engines[i].thrust/value; //Dividing it by the value of the slider if it is an engine
     }
     if (geofs.aircraft.instance.engines[i].afterBurnerThrust != undefined) { //Seeing if the engine has an afterburner
-     geofs.aircraft.instance.engines[i].afterBurnerThrust = geofs.aircraft.instance.engines[i].afterBurnerThrust/value; //Multiplying the afterburner thrust by the value of the slider if it has an afterburner
+     geofs.aircraft.instance.engines[i].afterBurnerThrust = geofs.aircraft.instance.engines[i].afterBurnerThrust/value; //Dividing the afterburner thrust by the value of the slider if it has an afterburner
     }
     if (geofs.aircraft.instance.engines[i].reverseThrust != undefined) { //Seeing if the engine has reverse thrust
-     geofs.aircraft.instance.engines[i].reverseThrust = geofs.aircraft.instance.engines[i].reverseThrust/value; //Multiplying the reverse thrust by the value of the slider
+     geofs.aircraft.instance.engines[i].reverseThrust = geofs.aircraft.instance.engines[i].reverseThrust/value; //Dividing the reverse thrust by the value of the slider
     }
     i++; //Changing "i" up by one so that it will repeat it until it has changed the power of all the engines
 }
 }
 
-    function calculate2() { //The actual power multiplying when the button is clicked, plus changing the zero thrust altitude
+    function multiply() { //The actual power multiplying when the button is clicked, plus changing the zero thrust altitude
         let value = parseInt(slider.value); //Assigning a variable to the slider value
         console.log(geofs.aircraft.instance.setup.zeroThrustAltitude = 1e+162) //Changes the zero thrust altitude way up
     var i = 0; //Setting variable "i" to 0
     while (i < 12) { //Completing some code as long as 'i' is less than 12
-    if (geofs.aircraft.instance.engines[i] != undefined) { //Seeing if the engine under whatever "i" equals is actually an engine
+    if (geofs.aircraft.instance.engines[i] != undefined) { //Seeing if engine number "i" is actually an engine
      geofs.aircraft.instance.engines[i].thrust = geofs.aircraft.instance.engines[i].thrust*value; //Multiplying it by the value of the slider if it is an engine
     }
     if (geofs.aircraft.instance.engines[i].afterBurnerThrust != undefined) { //Seeing if the engine has an afterburner
