@@ -1,4 +1,4 @@
-#### This mod adds two "secret" skins and some power options for most planes on Geo-fs.
+#### This mod adds some power options for most planes and shows a car and two "secret" skins on Geo-fs.
 
 # Credits
 Many thanks to Geo-fs pilot BAD_BIRD for the script for the chat fix and for the feedback. That's the only reason I kept working on this.
