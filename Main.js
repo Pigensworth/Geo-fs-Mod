@@ -1,23 +1,4 @@
-// ==UserScript==
-// @name         GeoFS Speed Mod
-// @namespace    http://tampermonkey.net/
-// @version      1
-// @description  Increases power for planes in Geo-FS.
-// @author       Pigensworth
-// @match        https://www.geo-fs.com/*
-// @grant        none
-// ==/UserScript==
-
-(function() {
-    'use strict';
-
-
-
-
-
-
-    let liElement1 = document.createElement('li');liElement1.setAttribute('data-aircraft', '102');document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(liElement1);liElement1.outerHTML = '<li data-aircraft="102"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Blue.png">Citroen 2CV<div class="geofs-liveries geofs-list-collapsible-item" data-noscroll="true"><div class="geofs-collapsible"><div data-aircraft="102" data-livery="0"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Blue.png">Blue</div><div data-aircraft="102" data-livery="1"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Yellow.png">Yellow</div><div data-aircraft="102" data-livery="2"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Green.png">Green</div><div data-aircraft="102" data-livery="3"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Red.png">Red</div><div data-aircraft="102" data-livery="4"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Red%26Black.png">Red/Black</div></div></div></li>';//Adding the car
-
+    /let liElement1 = document.createElement('li');liElement1.setAttribute('data-aircraft', '102');document.body.firstChild.nextSibling.nextElementSibling.firstElementChild.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.appendChild(liElement1);liElement1.outerHTML = '<li data-aircraft="102"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Blue.png">Citroen 2CV<div class="geofs-liveries geofs-list-collapsible-item" data-noscroll="true"><div class="geofs-collapsible"><div data-aircraft="102" data-livery="0"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Blue.png">Blue</div><div data-aircraft="102" data-livery="1"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Yellow.png">Yellow</div><div data-aircraft="102" data-livery="2"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Green.png">Green</div><div data-aircraft="102" data-livery="3"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Red.png">Red</div><div data-aircraft="102" data-livery="4"><img src="https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Images/Red%26Black.png">Red/Black</div></div></div></li>';//Adding the car
 
     function toggleBox() {
     const box = document.getElementById('box');
@@ -154,5 +135,3 @@
       box.style.right = window.innerWidth - buttonRect.right + ((buttonRect.right - buttonRect.left)/2) - (box.offsetWidth / 2) + 'px';
     }
   });
-
-})();
