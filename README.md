@@ -23,4 +23,4 @@ I've only tested using Tampermonkey on Chrome, and I've gotten reports that it g
 ![image](https://github.com/Pigensworth/Geo-fs-Mod/assets/136399546/13466356-ef3c-41f1-a20b-2ced3a1c695a)
 
 # Chat Fix
-The Chat Fix.js makes the chat automatically appear to fix the issue of it always turning off. It only works if you are signed in. To use it you can either make a new Tampermonkey script and put it in that or put it in the blank space at the top of 'Main.js'.
+The Chat Fix.js makes the chat automatically appear to fix the issue of it always turning off. It only works if you are signed in. To use it make a new Tampermonkey script and put it in that.
