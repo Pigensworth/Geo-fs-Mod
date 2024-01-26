@@ -1,0 +1,19 @@
+// ==UserScript==
+// @name         GeoFS Speed Mod
+// @namespace    http://tampermonkey.net/
+// @version      2.1
+// @description  Increases power for planes in Geo-FS.
+// @author       Pigensworth
+// @match        https://www.geo-fs.com/*
+// @icon         https://images.emojiterra.com/google/android-12l/512px/2708.png
+// @grant        none
+// @require      https://raw.githubusercontent.com/Pigensworth/Geo-fs-Mod/main/Main.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+//There is no code here because the 'require' above imports it from GitHub to make updates automatic. If you want to change the script then delete line ten (the one that starts with '// @require') and paste the Main.js below this line. However, doing so will remove automatic updates.
+
+
+})();
