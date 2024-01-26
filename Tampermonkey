@@ -13,7 +13,12 @@
 (function() {
     'use strict';
 
-//There is no code here because the 'require' above imports it from GitHub to make updates automatic. If you want to change the script then delete line ten (the one that starts with '// @require') and paste the Main.js below this line. However, doing so will remove automatic updates.
+// There is no code here because the 'require' above imports it from GitHub to make updates automatic.
+// If you want to change the script then delete line ten (the one that starts with '// @require') and paste the Main.js in the blank space below.
+// However, doing so will remove automatic updates.
+// Below is also where to paste the Chatfix.js if wanted.
+
+
 
 
 })();
